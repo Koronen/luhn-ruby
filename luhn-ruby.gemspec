@@ -16,4 +16,7 @@ Gem::Specification.new do |gem|
   gem.version       = '1.0.0'
 
   gem.add_development_dependency 'minitest'
+  gem.add_development_dependency 'guard'
+  gem.add_development_dependency 'guard-bundler'
+  gem.add_development_dependency 'guard-minitest'
 end
