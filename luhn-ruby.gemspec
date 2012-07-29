@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "luhn-ruby"
   gem.require_paths = ["lib"]
   gem.version       = '1.0.0'
+
+  gem.add_development_dependency 'minitest'
 end
